@@ -19,6 +19,9 @@ html {
 
   text-decoration: inherit;
   text-align: inherit;
+  vertical-align: baseline;
+
+  line-height: inherit;
 
   padding: 0;
   margin: 0;
@@ -27,4 +30,12 @@ html {
   outline: none;
 
   list-style: none;
+  quotes: inherit;
+
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
 }
